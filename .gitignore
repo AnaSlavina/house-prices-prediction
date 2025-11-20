@@ -1,0 +1,26 @@
+submissions/
+models/
+*.joblib
+*.pkl
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.DS_Store
+Thumbs.db
+.env
+kaggle.json
+*.tmp
+*.log
+*.csv.bak
+.git
+
+# Jupyter & virtual docs
+.jupyter/
+.virtual_documents/
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+**/.jupyter/
+**/.virtual_documents/
+**/.ipynb_checkpoints/
+**/.virtual_documents/
