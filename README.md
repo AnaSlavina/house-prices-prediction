@@ -80,6 +80,12 @@ Cross-validation shows strong performance, with XGBoost achieving an RMSE of 0.1
 Feature importance analysis revealed the key drivers of house prices, including overall quality, living area, and garage features.  
 The workflow demonstrates a complete end-to-end ML pipeline: data preprocessing, EDA, feature engineering, model training, evaluation, and interpretation.
 
+The project successfully built predictive models (Random Forest and XGBoost) for house prices using the Ames Housing dataset.  
+Cross-validation shows strong and stable performance, with XGBoost achieving **5-fold CV RMSE of 0.13183** (±0.018) in log scale — approximately **$25,495** average error in real prices.  
+After submission, the model scored **0.1265** on the Kaggle Public Leaderboard (Top 20% out of 5,845 teams).  
+Feature importance was visualized, highlighting the most influential predictors.  
+The workflow demonstrates a complete, production-ready end-to-end ML pipeline: data loading → smart imputation → EDA → feature engineering → one-hot encoding → model training & tuning → cross-validation → submission → Streamlit deployment.
+
 
 ## Technologies & Libraries Used
 - Python
